@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 
-mount / -o remount,rw
+sudo mount / -o remount,rw
 apt-get install uuid-dev
